@@ -1,0 +1,154 @@
+
+.head {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2.2em;
+    text-align: center;
+    text-decoration:none;
+    color: #303030;
+}
+
+.title {
+    font-weight: 400;
+    text-decoration:none;
+    color: #303030;
+}
+
+.nav {
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    text-align: center;
+    color: #303030;
+}
+
+.a, .b, .c, .d {
+    color: #303030;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.active, .a:hover, .b:hover, .c:hover, .d:hover {
+    font-weight: 400;
+    color: #000000;
+}
+
+.brain {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    padding: 10px;
+}
+
+.intro, .news {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 800px;
+    width: 800px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: left;
+    margin-top: 50px;
+}
+
+p, li {
+    line-height: 1.6;
+}
+
+.about_list {
+    padding-left: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+.recent_1, .recent_2 {
+    padding-bottom: 12px;
+}
+
+#about, #recent, #join, #findings, #reviews {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #303030;
+}
+
+#mail {
+    color: #303030;
+}
+
+
+/* people */
+
+.yoo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: left;
+    width: 800px;
+    margin-top: 50px;
+}
+
+.photo {
+    display: block;
+    float: left;
+    padding-right: 50px;
+    width: 350px;
+}
+
+.name{
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #303030;
+}
+
+
+#cv, #google, #neurotree, #twitter {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #303030;
+}
+
+/* publication */
+
+.paper {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 1200px;
+    width: 800px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: left;
+    color: #303030;
+    margin-top: 50px;
+}
+
+[class*="empirical"] {
+    font-weight: 400;
+}
+
+
+[class*="review"] {
+    font-weight: 400;
+}
+
+a {
+    color: #303030;
+}
+
+/* news*/
