@@ -48,7 +48,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    height: 900px;
+    height: 800px;
     width: 800px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -87,7 +87,7 @@ p, li {
 
 /* people */
 
-.yoo {
+.yoo, .ss {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -99,10 +99,12 @@ p, li {
     margin-top: 50px;
 }
 
+
 .photo {
     display: block;
     float: left;
     padding-right: 50px;
+    margin-top: 50px;
     width: 350px;
 }
 
@@ -148,7 +150,7 @@ p, li {
 }
 
 a {
-    color: #0e2970;
+    color: #303030;
 }
 
 /* news*/
