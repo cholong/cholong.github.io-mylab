@@ -142,11 +142,13 @@ p, li {
 
 [class*="empirical"] {
     font-weight: 400;
+    color: #082a67;
 }
 
 
 [class*="review"] {
     font-weight: 400;
+    color: #082a67;
 }
 
 a {
