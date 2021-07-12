@@ -87,29 +87,36 @@ p, li {
 
 /* people */
 
-.yoo, .ss, .Maria {
+.memebers {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+}
+
+
+.photo {
+    flost: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.profile {
+   
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 1em;
     text-align: left;
     width: 800px;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 
-.photo {
-    display: block;
-    float: left;
-    padding-right: 50px;
-    margin-top: 50px;
-    width: 350px;
-}
-
-.name{
-    padding-bottom: 30px;
+.name {
+    padding-top: 10px;
+    padding-bottom: 20px;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 400;
@@ -123,6 +130,7 @@ p, li {
     font-style: italic;
     color: #303030;
 }
+
 
 /* publication */
 
